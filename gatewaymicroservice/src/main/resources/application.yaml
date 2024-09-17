@@ -1,0 +1,17 @@
+#spring:
+#  cloud:
+#    gateway:
+#      globalcors:
+#        corsConfigurations:
+#          '[/**]':  # Applies to all routes
+#            allowedOrigins:
+#              - 'http://localhost:8084'
+#            allowedMethods:
+#              - GET
+#              - POST
+#              - PUT
+#              - DELETE
+#              - OPTIONS
+#            allowedHeaders:
+#              - '*'
+#            allowCredentials: true
